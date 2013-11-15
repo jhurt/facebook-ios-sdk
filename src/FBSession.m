@@ -930,7 +930,7 @@ static FBSession *g_activeSession = nil;
 
     // Note ordering is significant here.
     NSArray *loginStrategies = @[ [[[FBSessionSystemLoginStategy alloc] init] autorelease],
-                                  [[[FBSessionAppSwitchingLoginStategy alloc] init] autorelease],
+                                  //[[[FBSessionAppSwitchingLoginStategy alloc] init] autorelease],
                                   [[[FBSessionInlineWebViewLoginStategy alloc] init] autorelease]
                                   ];
 
